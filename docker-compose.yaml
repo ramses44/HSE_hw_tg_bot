@@ -1,0 +1,7 @@
+services:
+  simple_helper_bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/project
